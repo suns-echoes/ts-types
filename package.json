@@ -1,0 +1,29 @@
+{
+  "name": "@suns-echoes/ts-types",
+  "version": "0.0.1",
+  "description": "TypeScript type definitions",
+  "main": "",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "npm run check && node -r esm ./scripts/build-pre.js && node -r esm ./scripts/build-post.js",
+    "lint": "eslint .",
+    "ts": "tsc",
+    "check": "npm run lint && npm run ts",
+    "check:full": "npm run check && npm audit && npm outdated",
+    "publish": "npm run build && cd dist && npm publish --access public"
+  },
+  "homepage": "https://github.com/suns-echoes/ts-types",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suns-echoes/ts-types"
+  },
+  "author": "Aneta Suns <suns.echoes@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "esm": "^3.2.25",
+    "typescript": "^4.5.5"
+  }
+}
