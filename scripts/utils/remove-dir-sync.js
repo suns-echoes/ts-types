@@ -1,6 +1,7 @@
 import { rmSync } from 'fs';
 
-export function cleanDirSync(path) {
+
+export function removeDirSync(path) {
 	try {
 		rmSync(path, { recursive: true });
 	}

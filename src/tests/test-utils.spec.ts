@@ -1,8 +1,12 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-empty-function */
-class Cls { }
+interface arr extends Array<any> { }
 
-type cls = typeof Cls;
+interface cls {
+	new (): any;
+}
+
+interface fn {
+	(): any;
+}
 
 
 type AssertType<TBase, TAssert> = TAssert extends TBase ? true : false;

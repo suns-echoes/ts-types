@@ -1,5 +1,4 @@
 declare type PathKeys = string[];
-declare type KeyPath = string;
 
 
 declare type AnyKey = number | string | symbol;
@@ -22,3 +21,9 @@ declare interface AnyObject  {
 
 
 declare interface ObjectLike extends Record<AnyKey, any> { }
+
+
+declare type TypedArray = Uint8ClampedArray
+	| Uint8Array | Uint16Array | Uint32Array
+	| Int8Array | Int16Array | Int32Array
+	| Float32Array | Float64Array;

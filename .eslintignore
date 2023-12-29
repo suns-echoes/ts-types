@@ -1,6 +1,0 @@
-/dist/
-/temp/
-node_modules/
-
-# only to skip linter
-__skip__/

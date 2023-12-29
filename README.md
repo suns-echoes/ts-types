@@ -2,23 +2,30 @@
 
 ## About project
 
-The collection of useful TypeScript type definitions.
+The collection of useful TypeScript definitions.
+
 
 ## Installation
 
-`npm i --save @suns-echoes/ts-types`
+`npm i -D @suns-echoes/ts-types`
 
-(some libraries may need this in peerDependencies)
 
 ## Usage
 
-To use this types in your project just import the module in your project.
+1. Globally as dependency in `tsconfig.json`:
 
-```ts
-// index.ts
-import '@suns-echoes/ts-types';
+	```json
+	[
+		"files": ["./node_modules/@suns-echoes/ts-types/index.d.ts"],
+	]
+	```
 
-// or
+2. Globally as import in source file:
 
-/// <reference types="@suns-echoes/ts-types" />
-```
+	```ts
+	import '@suns-echoes/ts-types';
+
+	// or
+
+	/// <reference types="@suns-echoes/ts-types" />
+	```
