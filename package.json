@@ -1,13 +1,13 @@
 {
   "name": "@suns-echoes/ts-types",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "type": "module",
   "description": "TypeScript definitions",
   "main": "",
-  "types": "index.d.ts",
-  "type": "module",
+  "types": "src/index.d.ts",
   "scripts": {
-    "build": "npm run check && node ./scripts/build.js",
-    "check": "tsc && npm audit && npm outdated",
+    "build": "npm run test && node ./scripts/build-pre.js && node ./scripts/build-post.js",
+    "test": "tsc",
     "publish": "npm run build && cd dist && npm publish --access public"
   },
   "homepage": "https://github.com/suns-echoes/ts-types",
@@ -16,8 +16,8 @@
     "url": "https://github.com/suns-echoes/ts-types"
   },
   "author": "Aneta Suns <suns.echoes@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.3.3"
+    "typescript": "5.6.2"
   }
 }

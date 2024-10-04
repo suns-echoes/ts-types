@@ -1,12 +1,6 @@
-interface arr extends Array<any> { }
+class Cls { }
 
-interface cls {
-	new (): any;
-}
-
-interface fn {
-	(): any;
-}
+type cls = typeof Cls;
 
 
 type AssertType<TBase, TAssert> = TAssert extends TBase ? true : false;

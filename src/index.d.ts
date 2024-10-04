@@ -1,29 +1,14 @@
-declare type PathKeys = string[];
+import './types/any-array.d';
+import './types/any-class.d';
+import './types/any-function.d';
+import './types/any-object.d';
+import './types/object-like.d';
+import './types/typed-array.d';
 
-
-declare type AnyKey = number | string | symbol;
-declare type ObjectKey = string | symbol;
-
-
-declare interface AnyArray extends Array<any> { }
-
-declare interface AnyClass extends AnyObject {
-	new (...args: any[]): any,
-}
-
-declare interface AnyFunction extends AnyObject {
-	(...args: any[]): any,
-}
-
-declare interface AnyObject  {
-	[key: ObjectKey]: any,
-}
-
-
-declare interface ObjectLike extends Record<AnyKey, any> { }
-
-
-declare type TypedArray = Uint8ClampedArray
-	| Uint8Array | Uint16Array | Uint32Array
-	| Int8Array | Int16Array | Int32Array
-	| Float32Array | Float64Array;
+import './utils/cast.d';
+import './utils/extensible.d';
+import './utils/extensible-deep.d';
+import './utils/immutable.d';
+import './utils/immutable-deep.d';
+import './utils/mutable.d';
+import './utils/mutable-deep.d';

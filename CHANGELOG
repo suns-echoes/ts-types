@@ -1,50 +1,7 @@
-# README
-
-## About project
-
-The collection of useful TypeScript type definitions and utility types.
-
-[⮝](#readme)
+# CHANGELOG
 
 
-
-## Installation
-
-`npm i --save @suns-echoes/ts-types`
-
-(some libraries may need this in peerDependencies)
-
-[⮝](#readme)
-
-
-
-## Usage
-
-It might be necessary to add this module to `types` in `tsconfig.json`:
-
-```json
-{
-	// ...
-	"compilerOptions": {
-		// ...
-		"types": ["@suns-echoes/ts-types", ...]
-	},
-	// ...
-}
-
-```
-
-or to add reference in your project:
-
-```js
-/// <reference types="@suns-echoes/ts-types" />
-```
-
-[⮝](#readme)
-
-
-
-## Content
+## 1.0.0 / 2024-10-03
 
 ### Types
 
@@ -76,14 +33,53 @@ or to add reference in your project:
 | `Mutable<Target>`       | Cast immutable data type into mutable on main level.
 | `MutableDeep<Target>`   | Cast immutable data type into mutable on all levels.
 
-[⮝](#readme)
+### Other
+
+- Back to MIT license.
+
+[⮝](#changelog)
 
 
 
-## License
+## 0.1.0 / 2023-12-30 / 💔
 
-Licensed under MIT
+### 💔 Breaking Changes
 
-Copyright (c) 2022-2024 Aneta Suns
+- Remove `KeyPath` type.
 
-[⮝](#readme)
+### New Types
+
+| Type name     | Description
+|---------------|---------------------------------------------------------------
+
+- ➕ Add new container type `TypedArray` for JavaScript typed arrays.
+
+### Improvements
+
+- Refine types tests.
+- Simplify project configuration.
+- Remove all non-strictly required packages from dependencies.
+
+### Other
+
+- Change license from MIT to ISC.
+
+[⮝](#changelog)
+
+
+
+## 0.0.1 / 2022-02-21
+
+The first proof-of-concept release.
+
+### Types
+
+| Type name     | Description
+|---------------|---------------------------------------------------------------
+| `AnyArray`    | Any type of object that have enumerable items.
+| `AnyClass`    | Any type of class.
+| `AnyFunction` | Any type of function.
+| `AnyObject`   | Any type of object.
+| `ObjectLike`  | Any type that behave similarly to object.
+
+[⮝](#changelog)
