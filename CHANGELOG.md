@@ -1,7 +1,7 @@
 # CHANGELOG
 
 
-## 1.0.0 / 2024-10-03
+## `1.0.0` / 2024-10-03
 
 ### Types
 
@@ -14,7 +14,7 @@
 | `ObjectLike`  | Any type that behave similarly to object.
 | `TypedArray`  | Any of typed arrays.
 
-### Aliases Types
+### Alias Types
 
 | Type name     | Description
 |---------------|---------------------------------------------------------------
@@ -41,7 +41,7 @@
 
 
 
-## 0.1.0 / 2023-12-30 / 💔
+## `0.1.0` / 2023-12-30 / 💔
 
 ### 💔 Breaking Changes
 
@@ -49,10 +49,9 @@
 
 ### New Types
 
-| Type name     | Description
-|---------------|---------------------------------------------------------------
-
-- ➕ Add new container type `TypedArray` for JavaScript typed arrays.
+| Type name    | Description
+|--------------|----------------------------------------------------------------
+| `TypedArray` | The container type for JavaScript typed arrays.
 
 ### Improvements
 
@@ -68,7 +67,7 @@
 
 
 
-## 0.0.1 / 2022-02-21
+## `0.0.1` / 2022-02-21
 
 The first proof-of-concept release.
 

@@ -10,9 +10,7 @@ The collection of useful TypeScript type definitions and utility types.
 
 ## Installation
 
-`npm i --save @suns-echoes/ts-types`
-
-(some libraries may need this in peerDependencies)
+`npm i --save-dev @suns-echoes/ts-types`
 
 [⮝](#readme)
 
@@ -44,7 +42,7 @@ or to add reference in your project:
 
 
 
-## Content
+## Module Contents
 
 ### Types
 
@@ -57,7 +55,7 @@ or to add reference in your project:
 | `ObjectLike`  | Any type that behave similarly to object.
 | `TypedArray`  | Any of typed arrays.
 
-### Aliases Types
+### Alias Types
 
 | Type name     | Description
 |---------------|---------------------------------------------------------------
