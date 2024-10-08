@@ -18,7 +18,6 @@
 	}
 
 	{ // Valid property keys.
-		assertAnyObjectKey <number> (true);
 		assertAnyObjectKey <string> (true);
 		assertAnyObjectKey <symbol> (true);
 	}
@@ -29,6 +28,7 @@
 		assertAnyObjectKey <boolean>    (false);
 		assertAnyObjectKey <() => void> (false);
 		assertAnyObjectKey <null>       (false);
+		assertAnyObjectKey <number>     (false);
 		assertAnyObjectKey <object>     (false);
 		assertAnyObjectKey <undefined>  (false);
 	}

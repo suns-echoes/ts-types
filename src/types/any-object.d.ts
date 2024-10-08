@@ -21,4 +21,4 @@ declare type ObjectKey = string | symbol;
 /**
  * The type for any kind of object.
  */
-declare interface AnyObject extends Record<ObjectKey, any> { }
+declare type AnyObject = Record<ObjectKey, any>;
