@@ -1,6 +1,6 @@
 /**
  * The type for any kind of class.
  */
-declare interface AnyClass extends AnyObject {
+declare type AnyClass = AnyObject & {
 	new (...args: Array<any>): any,
-}
+};

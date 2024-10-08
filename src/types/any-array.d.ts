@@ -1,4 +1,4 @@
 /**
  * The type for any kind of array.
  */
-declare interface AnyArray extends Array<any>, AnyObject { }
+declare type AnyArray = Array<any> & Record<string | symbol, any>;

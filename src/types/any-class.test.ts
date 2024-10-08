@@ -24,7 +24,6 @@
 	}
 
 	{ // Valid property keys.
-		assertAnyClassKey <number> (true);
 		assertAnyClassKey <string> (true);
 		assertAnyClassKey <symbol> (true);
 	}
@@ -35,6 +34,7 @@
 		assertAnyClassKey <boolean>    (false);
 		assertAnyClassKey <() => void> (false);
 		assertAnyClassKey <null>       (false);
+		assertAnyClassKey <number>     (false);
 		assertAnyClassKey <object>     (false);
 		assertAnyClassKey <undefined>  (false);
 	}

@@ -1,6 +1,18 @@
 # CHANGELOG
 
 
+## `2.0.0` / 2024-10-08 / 💔
+
+### Bugfix 💔
+
+- Replace interfaces with types.
+  Now Any(Class|Function|Object) will not accept numbers as keys.
+  *Previous behavior was buggy and not intended.*
+
+[⮝](#changelog)
+
+
+
 ## `1.0.0` / 2024-10-03
 
 ### Types
