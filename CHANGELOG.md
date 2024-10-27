@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## `2.0.1` / 2024-10-17
+
+### Bugfix
+
+- Fix DeepExtensible bug that breaks non-object props types.
+
+[⮝](#changelog)
+
+
 
 ## `2.0.0` / 2024-10-08 / 💔
 

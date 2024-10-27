@@ -69,10 +69,10 @@ or to add reference in your project:
 | Type name               | Description
 |-------------------------|-----------------------------------------------------
 | `Cast<Target, NewType>` | Cast object type to another object type.
-| `Immutable<Target>`     | Cast mutable data type into immutable on main level.
-| `ImmutableDeep<Target>` | Cast mutable data type into immutable on all levels.
-| `Mutable<Target>`       | Cast immutable data type into mutable on main level.
-| `MutableDeep<Target>`   | Cast immutable data type into mutable on all levels.
+| `Immutable<Target>`     | Shallow type cast into immutable type.
+| `ImmutableDeep<Target>` | Deep type cast into immutable type.
+| `Mutable<Target>`       | Shallow type cast into mutable type.
+| `MutableDeep<Target>`   | Deep type cast into mutable type.
 
 [⮝](#readme)
 
