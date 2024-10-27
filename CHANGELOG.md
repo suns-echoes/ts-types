@@ -1,5 +1,18 @@
 # CHANGELOG
 
+
+## `2.1.0` / 2024-10-27
+
+### New Utility Types
+
+| Type name               | Description
+|-------------------------|-----------------------------------------------------
+| `PartialDeep<Target>`   | Make all properties in Target and nested objects optional.
+
+[⮝](#changelog)
+
+
+
 ## `2.0.1` / 2024-10-17
 
 ### Bugfix

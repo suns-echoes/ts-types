@@ -73,6 +73,7 @@ or to add reference in your project:
 | `ImmutableDeep<Target>` | Deep type cast into immutable type.
 | `Mutable<Target>`       | Shallow type cast into mutable type.
 | `MutableDeep<Target>`   | Deep type cast into mutable type.
+| `PartialDeep<Target>`   | Make all properties in Target and nested objects optional.
 
 [⮝](#readme)
 
