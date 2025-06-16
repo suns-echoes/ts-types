@@ -20,12 +20,18 @@ The collection of useful TypeScript type definitions and utility types.
 
 It might be necessary to add this module to `types` in `tsconfig.json`:
 
-```json
+```jsonc
 {
 	// ...
 	"compilerOptions": {
 		// ...
-		"types": ["@suns-echoes/ts-types", ...]
+		"types": ["@suns-echoes/ts-types", ...],
+		// -- OR --
+		"typeRoots": [
+			"./node_modules/@types",
+			"./node_modules/@suns-echoes/ts-types"
+		],
+		// ...
 	},
 	// ...
 }
@@ -83,6 +89,6 @@ or to add reference in your project:
 
 Licensed under MIT
 
-Copyright (c) 2022-2024 Aneta Suns
+Copyright (c) 2022-2025 Aneta Suns
 
 [⮝](#readme)
