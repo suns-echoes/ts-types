@@ -1,6 +1,6 @@
 {
   "name": "@suns-echoes/ts-types",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "type": "module",
   "description": "TypeScript definitions",
   "main": "",
@@ -13,7 +13,7 @@
   "homepage": "https://github.com/suns-echoes/ts-types",
   "repository": {
     "type": "git",
-    "url": "https://github.com/suns-echoes/ts-types"
+    "url": "git+https://github.com/suns-echoes/ts-types.git"
   },
   "author": "Aneta Suns <suns.echoes@gmail.com>",
   "license": "MIT",
