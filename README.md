@@ -69,6 +69,9 @@ or to add reference in your project:
 | Type name               | Description
 |-------------------------|-----------------------------------------------------
 | `Cast<Target, NewType>` | Cast object type to another object type.
+| `Fields<T>`             | Gets all fields from object or class.
+| `FieldsRW<T>`           | Gets only readable and writable fields from object or class.
+| `IfEquals<X, Y>`        | Checks if type X is equal to type Y.
 | `Immutable<Target>`     | Shallow type cast into immutable type.
 | `ImmutableDeep<Target>` | Deep type cast into immutable type.
 | `Mutable<Target>`       | Shallow type cast into mutable type.
