@@ -25,14 +25,8 @@ It might be necessary to add this module to `types` in `tsconfig.json`:
 	// ...
 	"compilerOptions": {
 		// ...
-		"types": ["@suns-echoes/ts-types", ...],
-		// -- OR --
-		"typeRoots": [
-			"./node_modules/@types",
-			"./node_modules/@suns-echoes/ts-types"
-		],
-		// ...
 	},
+	"include": ["node_modules/@suns-echoes/ts-types", ...],
 	// ...
 }
 

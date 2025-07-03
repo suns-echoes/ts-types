@@ -1,6 +1,21 @@
 # CHANGELOG
 
 
+## `2.4.0` / 2025-07-03
+
+### New Utility Types
+
+- Update documentation and clarity module usage.
+
+| Type name        | Description
+|------------------|-----------------------------------------------------
+| `Fields<T>`      | Gets all fields from object or class.
+| `FieldsRW<T>`    | Gets only readable and writable fields from object or class.
+| `IfEquals<X, Y>` | Checks if type X is equal to type Y.
+
+[⮝](#changelog)
+
+
 ## `2.1.0` / 2024-10-27
 
 ### New Utility Types
